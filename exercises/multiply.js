@@ -9,7 +9,23 @@
  */
 
 // Your code :
-const multiply = (a, b) => math.imul(a, b);
+const multiply = (a, b) => {  let sol = 0;
+			      let aBis = Math.abs(a);
+			      let bBis = Math.abs(b);
+		  		     for (let i =1; i<=bBis; i++) {
+		   		     let interm = aBis;
+			             sol = sol + interm;
+				     }
+				if (a<0 && b<0) {
+				   return sol;
+				}
+				if (a>0 && b>0){
+				  return sol;
+				}
+				else {
+				return -Math.abs(sol);
+				}
+			   }
 //* Begin of tests
 const assert = require('assert')
 

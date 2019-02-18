@@ -2,34 +2,53 @@
   "private": true,
   "index": "primitives.js",
   "tests": [
+ 
     {
-      "name": "primitives",
+      "name": "is-positive",
       "tags": [
-        "basics",
-        "declaration"
-      ]
-    },
-    {
-      "name": "arr",
-      "tags": [
-        "basics",
-        "declaration"
-      ]
-    },
-    {
-      "name": "obj",
-      "tags": [
-        "basics",
-        "declaration"
-      ]
-    },
-    {
-      "name": "id",
-      "tags": [
-        "basics",
-        "declaration",
+        "math",
         "function"
       ]
+    },
+    {
+      "name": "add",
+      "tags": [
+        "math",
+        "opperator",
+        "function"
+      ]
+    },
+    {
+      "name": "sub",
+      "tag": "math"
+    },
+    {
+      "name": "abs",
+      "tag": "math"
+    },
+    {
+      "name": "max",
+      "tag": "math"
+    },
+    {
+      "name": "min",
+      "tag": "math"
+    },
+    {
+      "name": "sign",
+      "tag": "math"
+    },
+    {
+      "name": "same-sign",
+      "tag": "math"
+    },
+    {
+      "name": "total",
+      "tag": "math"
+    },
+    {
+      "name": "multiply",
+      "tag": "math"
     }
   ],
   "scripts": {
