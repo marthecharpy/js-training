@@ -16,7 +16,7 @@ const multiply = (a, b) => {  let sol = 0;
 		   		     let interm = aBis;
 			             sol = sol + interm;
 				     }
-				if (a<0 && b<0) {
+				if (a<=0 && b<=0) {
 				   return sol;
 				}
 				if (a>0 && b>0){
